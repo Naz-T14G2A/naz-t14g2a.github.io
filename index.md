@@ -15,5 +15,5 @@ title: Home
 Networking · Windows/Linux · Scripting · Security fundamentals
 
 ## Contact
-- GitHub: https://github.com/YOURUSERNAME
-- Email: you@example.com
+- GitHub: https://github.com/Naz-T14G2A
+- Email: mnazri377@proton.me
