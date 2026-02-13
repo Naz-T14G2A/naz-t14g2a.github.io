@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Naz — Single-page portfolio featuring laptop, desktop, and keyboard projects." />
+  <title>Naz | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">N</span>
+        <div class="brand-text">
+          <strong>Naz</strong>
+          <span class="muted">Portfolio</span>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="pill">Hardware • PC Building • Keyboards</p>
+          <h1>
+            I build and optimize <span class="accent">laptops</span>, <span class="accent">desktops</span>, and <span class="accent">custom keyboards</span>.
+          </h1>
+          <p class="lead">
+            Single-page digital portfolio for school submissions. Tutor can access without login.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="#projects">View projects</a>
+            <a class="btn btn-ghost" href="assets/Naz_Resume.pdf" target="_blank" rel="noopener">
+              Download resume (PDF)
+            </a>
+          </div>
+
+          <ul class="quick-facts">
+            <li><span class="dot" aria-hidden="true"></span> Based in Singapore</li>
+            <li><span class="dot" aria-hidden="true"></span> Interests: IT, systems, performance, reliability</li>
+            <li><span class="dot" aria-hidden="true"></span> GitHub Pages hosted</li>
+          </ul>
+        </div>
+
+        <aside class="hero-card" aria-label="Highlights">
+          <h2>Highlights</h2>
+          <div class="stat-grid">
+            <div class="stat">
+              <div class="stat-num">3+</div>
+              <div class="stat-label">Featured builds</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">1</div>
+              <div class="stat-label">Single-page site</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">0</div>
+              <div class="stat-label">Login required</div>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+
+          <p class="muted small">
+            Tip: Add photos in <code>assets/</code> and replace the placeholders below.
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p class="muted">Laptop / Desktop / Keyboard builds with specs, decisions, and outcomes.</p>
+        </div>
+
+        <div class="cards">
+          <!-- PROJECT 1 -->
+          <article class="card">
+            <div class="card-media">
+              <img src="assets/laptop.jpg" alt="Photo of my laptop project" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <h3>Laptop Project: ThinkPad T14 Gen 2 AMD Setup</h3>
+              <p class="muted">
+                Daily-driver workflow and performance tuning for school and IT tasks.
+              </p>
+
+              <ul class="tags" aria-label="Technologies used">
+                <li>Windows</li>
+                <li>Drivers</li>
+                <li>Workflow</li>
+                <li>Troubleshooting</li>
+              </ul>
+
+              <div class="details">
+                <div>
+                  <h4>What it is</h4>
+                  <p>
+                    A configured and optimized laptop setup with a stable single-cable desk workflow (dock/hub, displays, charging).
+                  </p>
+                </div>
+                <div>
+                  <h4>My role</h4>
+                  <p>
+                    I planned the setup, validated compatibility, tested peripherals, and documented a repeatable configuration.
+                  </p>
+                </div>
+                <div>
+                  <h4>Outcome</h4>
+                  <p>
+                    Reliable daily use: consistent display output, charging behavior verified, and fewer setup issues.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card-links">
+                <a href="#" target="_blank" rel="noopener">Build notes</a>
+                <a href="#" target="_blank" rel="noopener">Photos</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 -->
+          <article class="card">
+            <div class="card-media">
+              <img src="assets/desktop.jpg" alt="Photo of my desktop PC build" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <h3>Desktop Project: Ryzen + Radeon Build</h3>
+              <p class="muted">
+                Component selection, airflow planning, and stability testing.
+              </p>
+
+              <ul class="tags" aria-label="Technologies used">
+                <li>PC Building</li>
+                <li>Thermals</li>
+                <li>BIOS</li>
+                <li>Stability</li>
+              </ul>
+
+              <div class="details">
+                <div>
+                  <h4>What it is</h4>
+                  <p>
+                    A custom-built desktop designed for performance and longevity, with a focus on cooling and maintainability.
+                  </p>
+                </div>
+                <div>
+                  <h4>My role</h4>
+                  <p>
+                    I selected parts, assembled the system, managed cable routing, and validated temps and performance.
+                  </p>
+                </div>
+                <div>
+                  <h4>Outcome</h4>
+                  <p>
+                    Stable system under load with clean internal layout; documented upgrade path and maintenance checklist.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card-links">
+                <a href="#" target="_blank" rel="noopener">Parts list</a>
+                <a href="#" target="_blank" rel="noopener">Benchmarks</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3 -->
+          <article class="card">
+            <div class="card-media">
+              <img src="assets/keyboard.jpg" alt="Photo of my custom keyboard project" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <h3>Keyboard Project: Custom Build + Tuning</h3>
+              <p class="muted">
+                Switch choice, stabilizer tuning, dampening, and sound profile improvements.
+              </p>
+
+              <ul class="tags" aria-label="Technologies used">
+                <li>Modding</li>
+                <li>Lubing</li>
+                <li>Sound tuning</li>
+                <li>Maintenance</li>
+              </ul>
+
+              <div class="details">
+                <div>
+                  <h4>What it is</h4>
+                  <p>
+                    A tuned keyboard build focused on reducing hollowness and improving key feel and acoustics.
+                  </p>
+                </div>
+                <div>
+                  <h4>My role</h4>
+                  <p>
+                    I performed the mods (stabs, foam, switch prep), tested sound/feel, and iterated based on results.
+                  </p>
+                </div>
+                <div>
+                  <h4>Outcome</h4>
+                  <p>
+                    More consistent stabilizers, deeper sound profile, and improved typing comfort for long sessions.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card-links">
+                <a href="#" target="_blank" rel="noopener">Mod list</a>
+                <a href="#" target="_blank" rel="noopener">Sound test</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p class="muted">What I used across these builds and troubleshooting work.</p>
+        </div>
+
+        <div class="skill-grid">
+          <div class="skill">
+            <h3>Hardware</h3>
+            <ul>
+              <li>PC assembly & component compatibility</li>
+              <li>Cable management & airflow planning</li>
+              <li>Peripheral + monitor setups</li>
+            </ul>
+          </div>
+
+          <div class="skill">
+            <h3>Troubleshooting</h3>
+            <ul>
+              <li>Driver / firmware sanity checks</li>
+              <li>Stability testing & temperature validation</li>
+              <li>Documenting reproducible steps</li>
+            </ul>
+          </div>
+
+          <div class="skill">
+            <h3>Tools</h3>
+            <ul>
+              <li>GitHub Pages / basic HTML-CSS</li>
+              <li>Windows & basic Linux familiarity</li>
+              <li>Benchmarking + monitoring tools</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>About</h2>
+          <p class="muted">Short and tutor-friendly.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="panel">
+            <h3>Who I am</h3>
+            <p>
+              I’m an IT student who enjoys hands-on systems work: building PCs, optimizing setups, and fixing annoying reliability issues.
+              I like documenting what I do so others can reproduce the same results.
+            </p>
+          </div>
+
+          <div class="panel">
+            <h3>What I’m aiming for</h3>
+            <p>
+              Intern roles related to IT support, infrastructure, systems, or security fundamentals — where I can apply troubleshooting and
+              practical hardware knowledge.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="muted">Keep it simple. Don’t put passwords anywhere.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="panel">
+            <h3>Links</h3>
+            <ul class="contact-list">
+              <li><span class="label">GitHub</span> <a href="https://github.com/Naz-T14G2A" target="_blank" rel="noopener">Naz-T14G2A</a></li>
+              <li><span class="label">Email</span> <a href="mailto:you@example.com">you@example.com</a></li>
+              <li><span class="label">LinkedIn</span> <a href="#" target="_blank" rel="noopener">Add your LinkedIn</a></li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Submission note</h3>
+            <p class="muted small">
+              This site is publicly accessible via GitHub Pages (no login required), suitable for including as a URL in a resume.
+            </p>
+            <p class="muted small">
+              Replace placeholders: images in <code>assets/</code>, PDF resume path, and project links.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="muted small">© <span id="y"></span> Naz • Built with HTML/CSS • Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
